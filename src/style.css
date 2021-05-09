@@ -1,0 +1,31 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+.board {
+  display: flex;
+  width: 306px;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  font-size: 45px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.win {
+  background: green;
+}
